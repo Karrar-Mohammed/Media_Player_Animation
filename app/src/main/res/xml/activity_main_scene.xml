@@ -16,7 +16,8 @@
             android:layout_height="64dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/guideline" />
+            app:layout_constraintTop_toTopOf="@+id/videoimage"
+            app:layout_constraintBottom_toBottomOf="@+id/videoimage" />
         <Constraint
             android:id="@+id/videotitle"
             android:layout_width="match_parent"
